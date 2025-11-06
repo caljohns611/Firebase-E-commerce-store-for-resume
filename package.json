@@ -1,9 +1,12 @@
 {
+  "homepage": "https://caljohns611.github.io/Firebase-E-commerce-store-for-resume/",
   "name": "resume-project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d list",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
@@ -13,6 +16,7 @@
     "@headlessui/react": "^2.2.9",
     "firebase": "^12.4.0",
     "framer-motion": "^12.23.24",
+    "gh-pages": "^6.3.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },

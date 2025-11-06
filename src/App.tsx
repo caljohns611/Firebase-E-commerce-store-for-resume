@@ -1,7 +1,7 @@
 import AuthForm from './components/AuthForm';
-import ProductList from './pages/ProductList';
+import ProductList from './layouts/ProductList';
 import { useAuth } from './context/AuthContext';
-import CartPage from './pages/Cart';
+import CartPage from './layouts/Cart';
 
 export default function App(){
   const { user } = useAuth();
